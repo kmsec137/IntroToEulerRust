@@ -15,7 +15,7 @@ fn sieve(limit: i32) -> Vec<i32> {
 			let s: usize = 2*i;
 			for j in (b..sieve.len()).step_by(s) {
 				sieve[j] = 1;	
-   		}
+   			}
 		}
 			
 	}
